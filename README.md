@@ -1,4 +1,4 @@
-# Graph Convolutional Network
+# Graph Convolutional Network on ESOL dataset
 
 Predicting solubility of a molecule in water using graph convolutional networks
 
