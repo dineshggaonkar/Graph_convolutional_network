@@ -25,7 +25,7 @@ test_loader = DataLoader(data[int(config.data_size * 0.8):],
                          batch_size=config.NUM_GRAPHS_PER_BATCH, shuffle=True)
 
 
-def train(data):
+def train():
     train_loss = 0
     # Enumerate over the data
     for batch in loader:
@@ -51,7 +51,7 @@ train_losses = []
 
 for epoch in range(2000):
     train_loss = 0
-    loss = train(data)
+    loss = train()
     
     train_losses.append(loss)
 

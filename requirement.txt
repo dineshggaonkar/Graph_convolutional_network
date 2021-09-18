@@ -27,7 +27,6 @@ threadpoolctl==2.2.0
 torch==1.6.0
 torch-geometric==2.0.1
 torch-scatter==2.0.8
-torch-sparse==0.6.9
 torch-spline-conv==1.2.1
 tqdm==4.62.2
 typing-extensions==3.7.4.3
